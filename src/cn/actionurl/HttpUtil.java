@@ -5,7 +5,10 @@ import java.io.DataOutputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
-
+/**
+ * ·â×°Http£¬·¢ËÍpostÇëÇó
+ * @author livefree
+ */
 public class HttpUtil {
 
     public static String post(String requestUrl, String params)
